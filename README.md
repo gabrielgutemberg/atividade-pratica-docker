@@ -5,4 +5,6 @@ A aplicação foi utilizado como objeto de estudo para um trabalho da disciplina
 
 Comandos utilizados: 
 docker build -t docker-speedtest .
+
+
 docker run -d -p 8080:80 --name speedtest-container docker-speedtest
